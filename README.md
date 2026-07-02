@@ -7,25 +7,6 @@
 
 ---
 
-## ⚙️ IaC Flow
-
-terraform init
-↓
-Download Docker Provider
-↓
-terraform plan
-↓
-Preview Resources
-↓
-terraform apply
-↓
-Pull Image + Run Container
-↓
-terraform destroy
-↓
-Remove Container + Image
-
----
 
 ## 📦 Resources Managed
 
@@ -63,3 +44,4 @@ terraform state show docker_container.nodejs_container
 
 **DockerHub →** [yagnik0167/nodejs-demo-app](https://hub.docker.com/r/yagnik0167/nodejs-demo-app)
 **Author →** [@YagnikVisaveliya](https://github.com/YagnikVisaveliya)
+**Live → [http://44.192.102.103:3000/](http://44.192.102.103:3000/)**
